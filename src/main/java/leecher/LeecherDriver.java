@@ -32,9 +32,9 @@ import org.slf4j.LoggerFactory;
  * 
  * <p>
  * The way to start Leecher is
- * <code>
+ * {@code 
  *      leecher start leeching x
- * </code>
+ * }
  * </p>
  * 
  * 
@@ -76,7 +76,7 @@ public class LeecherDriver {
     }
     
     /**
-     * Reads the configuration from the <code>conf.props</code> file and sets up Leecher.
+     * Reads the configuration from the {@code conf.props} file and sets up Leecher.
      */
     private static void setup() {
         try {
